@@ -1,0 +1,440 @@
+
+
+
+.case{
+	height:650px;
+	width:310px;
+	font-size: 0;
+	background-color: black;
+	position: absolute;
+  	margin: auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	border-style: double;
+	border-color: grey;
+	border-width: 4px;
+	border-radius:45px;
+	overflow: hidden;
+}
+
+
+.reflection {
+  position: absolute;
+  /*background: linear-gradient(180deg, #fff, #000 80%);*/
+  width: 310px; 
+  height: 600px;
+  transform-origin: -50% 10%;
+  transform: rotateZ(-30deg) translateX(60px); 
+  opacity: 0.3;
+  z-index: +1;
+  pointer-events: none;
+  background-color: white;
+  -webkit-mask-image: -webkit-gradient(linear, left top, 
+    left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+
+
+
+.earPiece{
+	position: absolute;
+	top:40px;
+	left:127px;
+	background-color: #242424;
+	width: 55px;
+	height:6px;
+	border-radius: 5px;
+	border-style: inset;
+	border-color: #38393a;
+	border-width: 1px;
+	z-index: +2;
+
+}
+
+
+
+
+
+
+
+.screen{
+	height:525px;
+	width:300px;
+	font-size: 0;
+	background-color: black;
+	position: absolute;
+	top:63px;
+	left:5px;
+	
+}
+
+
+.display{
+	position: absolute;
+	background-color: black;
+	height: 150px;
+	width: 260px;
+	top: 10px;
+	left: 20px;
+}
+
+.batteryA{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 10px;
+	width: 20px;
+	height:10px;
+	text-align: right;
+	font-family: Arial;
+	color: white;
+	background-color: grey;
+}
+
+.batteryB{
+	position: absolute;
+	top: 2px;
+	right: 20px;
+	font-size: 10px;
+	width: 2px;
+	height:6px;
+	text-align: right;
+	font-family: Arial;
+	color: white;
+	background-color: grey;
+
+
+}
+
+.batteryText{
+	position: absolute;
+	top: 0px;
+	right: 27px;
+	font-size: 10px;
+	height:10px;
+	text-align: left;
+	font-family: Arial;
+	color: grey;
+	
+}
+
+.network{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 10px;
+	height:10px;
+	text-align: left;
+	font-family: Arial;
+	color: grey;
+	
+}
+
+
+.displayText{
+	position: absolute;
+	bottom: 0px;
+	font-size: 70px;
+	width: 260px;
+	text-align: right;
+	font-family: Helvetica;
+	color: white;
+
+}
+
+
+.keysCont{
+	position: absolute;
+	background-color: black;
+	width: 280px;
+	height:355px;
+	left:10px;
+	top: 170px;
+}
+
+
+
+
+
+
+.keyZero{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:130px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 30px;
+	color:white;
+	cursor: default;
+}
+
+.keyOne{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyTwo{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyThree{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyFour{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyFive{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+
+.keySix{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+
+.keySeven{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyEight{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyNine{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+.keyDecimal{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #38393a;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color:white;
+	cursor: default;
+}
+
+
+
+.miscKeys{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: #afb1b5;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	cursor: default;
+}
+
+
+.operatorKeys{
+	display: inline-block;
+	margin: 5px;
+	top:5px;
+	left:0px;
+	width:60px;
+	height:60px;
+	background-color: orange;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-family: Arial;
+	border-radius: 50%;
+	color: white;
+	cursor: default;
+}
+
+.homeButton{
+	position: absolute;
+	bottom:10px;
+	left:127px;
+	background-color: black;
+	width: 50px;
+	height:50px;
+	border-radius: 50%;
+	border-style: inset;
+	border-color: #38393a;
+	border-width: 2px;
+
+}
+
+.divide{
+
+}
+
+.multiply{
+
+}
+
+.minus{
+
+}
+
+.add{
+
+}
+
+.equals{
+
+}
+
+.clear{
+
+}
+
+.plusMinus{
+
+}

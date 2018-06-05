@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+	<div class = 'case'>
+
+		<div class = 'reflection'>
+		</div>
+
+		<div class = 'earPiece'>
+		</div>
+
+		<div class = 'screen'>
+
+    		<div class = 'display'>
+
+    			<div class = 'batteryA'>
+    			</div>
+
+    			<div class = 'batteryB'>
+    			</div>
+
+    			<div class = 'batteryText'>100%
+    			</div>
+
+    			<div class = 'network'>ODIN NETWORK
+    			</div>
+
+    			<div class = 'displayText'>
+    			</div>
+    		</div>
+
+
+
+
+    		<div class = 'keysCont'>
+    
+      			<div class = 'miscKeys clear'>C
+      			</div>
+
+      			<div class = 'miscKeys plusMinus'>+/-
+      			</div>
+
+      			<div class = 'miscKeys'>
+      			</div>
+
+      			<div class = 'operatorKeys divide'>/
+      			</div>
+
+      			<div class = 'keySeven'>7
+      			</div>
+
+      			<div class = 'keyEight'>8
+      			</div>
+
+      			<div class = 'keyNine'>9
+      			</div>
+
+      			<div class = 'operatorKeys multiply'>x
+      			</div>
+
+      			<div class = 'keyFour'>4
+      			</div>
+
+      			<div class = 'keyFive'>5
+      			</div> 
+
+      			<div class = 'keySix'>6
+      			</div>
+
+      			<div class = 'operatorKeys minus'>-
+      			</div>
+
+      			<div class = 'keyOne'>1
+      			</div>
+
+      			<div class = 'keyTwo'>2
+      			</div>
+
+      			<div class = 'keyThree'>3
+      			</div>
+
+      			<div class = 'operatorKeys add'>+
+      			</div>
+
+      			<div class = 'keyZero'>0
+      			</div>
+
+      			<div class = 'keyDecimal'>.
+      			</div>
+
+      			<div class = 'operatorKeys equals'>=
+      			</div> 
+
+    
+    
+    		</div>
+
+
+  		</div>
+
+  		<div class = 'homeButton'>
+  		</div>
+
+  	</div>
+
+
+</body>
+
+<script src = "script.js">
+  
+
+
+</script>
+
+  
+  
+  
+  
+
+</html>
